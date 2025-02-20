@@ -9,7 +9,20 @@ Welcome to the Quantum Computing Notebook! This notebook serves as an introducti
 
 To run the notebook, you have two options:
 
-1. **Local Installation:** Follow the instructions in the provided PDF guide to install Jupyter Notebook and Qiskit on your local machine. You can then open the notebook file using Jupyter Notebook and run the cells to interact with the quantum circuits.
+1. **Local Installation:** First install anaconda or miniconda, following the instructions [here](https://www.anaconda.com/download/success). Form the anaconda prompt, you can now create a python environment and install the necessary packages. Type
+```bash
+conda create -n quantum_computing python=3
+conda activate quantum_computing
+pip install numpy scipy matplotlib qiskit
+pip install jupyter
+pip install qiskit[visualization]
+pip install qiskit_aer
+```
+To deactivate the python environment type
+```bash
+conda deactivate
+```
+The activate and deactivate commands allow you to move from the default (base) environment and the ones you create.
 
 2. **IBM Quantum Lab:**  Alternatively, use the provided [IBM Quantum Lab](https://quantum-computing.ibm.com/lab) environment. This option allows you to run the notebook in a standard browser without any local installations. All you need is a Google Account to sign in and start experimenting with quantum circuits.
    - Download the Hands_on_01.ipynb notebook.
