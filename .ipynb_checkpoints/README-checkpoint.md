@@ -9,7 +9,7 @@ Welcome to the Quantum Computing Notebook! This notebook serves as an introducti
 
 To run the notebook, you have two options:
 
-1. **Local Installation:** First install anaconda or miniconda, following the instructions [here](https://www.anaconda.com/download/success). Form the anaconda prompt, you can now create a python environment and install the necessary packages. Type
+1. **Local Installation:** First install anaconda or miniconda, following the instructions [here](https://www.anaconda.com/download/success). From the anaconda prompt, you can now create a python environment and install the necessary packages. Type
 ```bash
 conda create -n quantum_computing python=3
 conda activate quantum_computing
@@ -17,6 +17,8 @@ pip install numpy scipy matplotlib qiskit
 pip install jupyter
 pip install qiskit[visualization]
 pip install qiskit_aer
+pip install networkx
+pip install qiskit_ibm_runtime
 ```
 To deactivate the python environment type
 ```bash
@@ -34,9 +36,11 @@ The first hour will focus on understanding and creating entangled states, partic
 
 In the second hour, we will delve into implementing a protocol for Quantum Teleportation. This protocol is a fundamental concept in quantum information theory and demonstrates the transfer of quantum information from one qubit to another using entanglement and classical communication.
 
+The advanced tutorial (Tutorial 03) focuses instead on quantum simulation of real-time dynamics of the transverse-field Ising model (TFIM).
+
 ## Contents
 
-- **Notebook Files:** [Hands_on_01.ipynb, Hands_on_02.ipynb]
+- **Notebook Files:** [Hands_on_01.ipynb, Hands_on_02.ipynb, Tutorial 03.ipynb]
 - **PDF Installation Guide:** [FirstStepsWithPythonAndQiskit.pdf]()
 
 ## License
